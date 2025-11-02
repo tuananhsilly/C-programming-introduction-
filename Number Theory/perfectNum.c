@@ -12,8 +12,7 @@ int isPerfect(long long n){
                 sum += n/i;
         }
     }
-    if(sum - n == n) return 1;
-    else return 0;
+    return sum - n == n;
 }
 
 int main(){
